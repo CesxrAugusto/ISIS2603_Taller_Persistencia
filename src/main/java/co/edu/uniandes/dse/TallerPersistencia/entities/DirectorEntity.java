@@ -7,7 +7,7 @@ import java.util.*;
 
 @Data
 @Entity
-public class DirectorEntity {
+public class DirectorEntity extends BaseEntity{
     private String nombre;
     private String biografia;
 

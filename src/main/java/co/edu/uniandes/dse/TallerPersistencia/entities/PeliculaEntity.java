@@ -7,7 +7,7 @@ import java.util.*;
 
 @Data
 @Entity
-public class PeliculaEntity {
+public class PeliculaEntity extends BaseEntity{
     private String titulo;
     private Integer anioLanzamiento;
 
