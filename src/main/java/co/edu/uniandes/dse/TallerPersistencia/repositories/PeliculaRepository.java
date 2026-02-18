@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import co.edu.uniandes.dse.TallerPersistencia.entities.PeliculaEntity;
 @Repository
 public interface PeliculaRepository extends JpaRepository<PeliculaEntity, Long> {
-    PeliculaEntity findByTitulo(String peliculaTitulo)
+    PeliculaEntity findByTitulo(String peliculaTitulo);
 }
