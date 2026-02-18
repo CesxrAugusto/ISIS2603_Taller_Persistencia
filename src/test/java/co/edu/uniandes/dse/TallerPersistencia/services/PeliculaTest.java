@@ -31,9 +31,7 @@ public class PeliculaTest{
     EntityManager entityManager;
 
     private PodamFactory factory = new PodamFactoryImpl();
+    private List <PeliculaEntity> listaPeliculas = new ArrayList<PeliculaEntity>();     
 
-    private List <PeliculaEntity> listaPeliculas = new ArrayList<PeliculaEntity>(); 
-
-    
 
 }
